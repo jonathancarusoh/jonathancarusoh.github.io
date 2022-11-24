@@ -263,6 +263,7 @@ button:hover{
 
     .h3 {
         height: 50px;
+     
     }  
 }
 
@@ -314,7 +315,7 @@ button:hover{
         grid-column: 1/2;
         grid-row: 1 / 2;
        text-align: center;
-        margin-top: 10px;
+        margin-top: 25px;
         
         
         
@@ -334,9 +335,9 @@ button:hover{
         display: grid;
       
        grid-row: 1 / 2;
-     
+     position: relative;
        text-align: center;
-       margin-top: -40px;
+       top: -30px;
        padding-top: 0;
     
        
@@ -358,7 +359,7 @@ button:hover{
 
 @media screen and  (max-width: 645px) { 
     .h3 {
-       margin-top: -20px 
+       top: -20px 
     }
 
     .form-container {
@@ -367,8 +368,19 @@ button:hover{
          margin-top: -60px;
       
     }
- 
   
+
+    .h1{
+        position: relative;
+        top: 10px;
+    }
+    .h2 {
+        position: relative;
+        
+        top: 25px;
+       
+        
+     }
 
   
 
@@ -390,20 +402,33 @@ button:hover{
         grid-column: 2/5;
         margin: 20px;
         position:relative;
-        top: -10px;
+        top: -20px;
     }
    
     .h2 {
         position: relative;
         grid-column: 2/5;
         top: 45px;
-        margin: 10px;
+        margin: 0;
+        font-size: 0.9em;
         
      }
      
     .h3 {
       height: 60px;
-   margin-top: -30px;
+   margin-top: -15px;
     }
-  
+    .h3 strong {
+        position: relative;
+        
+        top: 5px;
+        }
+.form-container {
+    position: relative;
+    top: -5px;
 }
+.formulario__input-error {
+        font-size: 0.6em;
+        top:35px;
+
+}}

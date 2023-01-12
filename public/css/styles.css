@@ -1,0 +1,45 @@
+.btn-edit{
+    position: relative;
+    width: 100px;
+}
+
+
+
+body {
+    background-color: red;
+}
+
+.form-group input {
+   
+}
+.form-group {
+    
+}
+
+.container-list {
+    width: 250px;
+    margin: 10px;
+
+
+
+}
+
+.row1{
+    
+   
+   
+}
+
+.pi {
+    color: red;
+}
+
+
+
+@media screen and (max-width: 550px) {
+
+    .container-list{
+
+    }
+
+};
